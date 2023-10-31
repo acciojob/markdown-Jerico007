@@ -5,7 +5,7 @@ const Markdown = () => {
     return (
         <div className='Markdown'>
                 <div className='preview'>
-                    <p className='loading'>{input}</p>
+                    <h1 className='loading'>{input}</h1>
                 </div>
                 <div className='text-area'>
                     <textarea onInput={(e)=>(setInput(e.target.value))} className='textarea'  rows={30} cols={60}></textarea>
